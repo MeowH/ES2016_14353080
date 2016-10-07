@@ -7,10 +7,10 @@
 
   * 安装一些必要的环境
 
-    $ sudo apt-get update
-    $ sudo apt-get install ant
-    $ sudo apt-get install openjdk-7-jdk
-    $ sudo apt-get install unzip
+    `$ sudo apt-get update`
+    `$ sudo apt-get install ant`
+    `$ sudo apt-get install openjdk-7-jdk`
+    `$ sudo apt-get install unzip`
 
   1. 解压文件
 
@@ -37,6 +37,7 @@
      `$ cd objdir`
 
      运行configure (能根据系统的环境设置一下参数，用于编译)
+
      `$ ../configure CXX=g++ --disable-async-updates`
 
      编译
