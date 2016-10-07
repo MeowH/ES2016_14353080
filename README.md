@@ -12,7 +12,13 @@
     `$ sudo apt-get install openjdk-7-jdk`
     `$ sudo apt-get install unzip`
 
-  1. 解压文件
+  1. 下载文件
+
+     `$ sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz`
+
+     `$ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip`
+
+  2. 解压文件
 
      新建dol的文件夹
      `$ mkdir dol`
@@ -25,7 +31,7 @@
 
      `$ tar -zxvf systemc-2.3.1.tgz`
 
-  2. 编译systemc
+  3. 编译systemc
 
      解压后进入systemc-2.3.1的目录下
      `$ cd systemc-2.3.1`
@@ -46,7 +52,7 @@
 
      记录当前的工作路径
 
-  3. 编译dol
+  4. 编译dol
 
      进入刚刚dol的文件夹
      `$ cd ../dol`
